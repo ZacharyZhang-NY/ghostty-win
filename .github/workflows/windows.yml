@@ -67,7 +67,7 @@ jobs:
             dist\windows\ghostty.iss
 
       - name: Upload installer artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: ghostty-setup-x86_64
           path: dist/windows/output/ghostty-setup-x86_64.exe
